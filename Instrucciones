@@ -1,0 +1,66 @@
+🚀 Instrucciones de Uso
+1. Instalar y configurar Termux:
+bash
+# Dar permisos de almacenamiento
+termux-setup-storage
+
+# Instalar dependencias
+pkg install root-repo
+pkg install git php apache2 hostapd dnsmasq net-tools
+2. Obtener el script:
+bash
+git clone https://github.com/tu-usuario/portal-cautivo.git
+cd portal-cautivo
+chmod +x portal-cautivo.sh
+3. Ejecutar con root:
+bash
+su
+./portal-cautivo.sh
+4. Opciones del script:
+Opción 1: Configura e inicia el portal completo
+
+Opción 2: Solo monitorea capturas existentes
+
+Opción 3: Salir
+
+🎯 Para Tus Demostraciones
+Mensaje Educativo que Debes Incluir:
+bash
+"Esta demostración muestra cómo los puntos de acceso WiFi públicos 
+no seguros pueden capturar sus credenciales. Nunca ingrese información 
+sensible en redes WiFi públicas desconocidas."
+Mejoras que puedes agregar:
+Página de Términos y Condiciones falsa
+
+Redirección a Google después del login
+
+Captura de MAC addresses de dispositivos
+
+Dashboard en tiempo real de conexiones
+
+⚠️ Consideraciones Importantes
+Solo uso educativo - muestra la vulnerabilidad
+
+Requiere root en el dispositivo Android
+
+Algunos dispositivos pueden necesitar kernel personalizado
+
+Siempre informa a los participantes que es una demostración
+
+Borra todas las capturas después de la demostración
+
+🔒 Contramedidas para Enseñar
+Incluye en tu taller estas protecciones:
+
+Usar VPN en redes públicas
+
+Verificar certificados SSL
+
+Habilitar 2FA en todas las cuentas
+
+No reutilizar contraseñas
+
+Usar navegación incógnita en redes públicas
+
+¿Te gustaría que adapte alguna parte específica del script para tu taller?
+
